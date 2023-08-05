@@ -1,0 +1,170 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+Header, .Hero{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0px;
+}
+
+.Header-Logo-Text {
+    font-weight: 24px;
+}
+
+.Header-Links {
+    display: flex;
+    gap: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Grey);
+}
+
+.Hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8em 0;
+}
+
+.Hero-Container{
+    width: 30em;
+    width:fit-content;
+}
+
+.Hero-Title{
+    font-size: 48px;
+}
+
+.Hero-Description {
+    font-size: 18px;
+    color: var(--Grey);
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: var(--Blue);
+    padding: 0.5em 2.5em;
+    border-radius: 0.5em;
+    border: 0;
+    color: var(--white);
+    font-weight: bolder;
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--black);
+}
+
+.Hero-Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em 0em;
+}
+
+.Info-Group {
+    display: flex;
+    margin: 4em 0;
+}
+
+.Info-Title {
+    font-size: 36px;
+}
+
+.Info-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Info-Text {
+    color: var(--black);
+    padding: 1em;
+    text-align: center;
+    font-size: small;
+}
+
+.Quote {
+    padding: 6em 0;
+    background-color: var(--Grey);
+}
+
+.Quote-Maker {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 2em;
+}
+
+.Quote-Text {
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 36px;
+}
+
+.Call-To-Action {
+    background-color: var(--Blue);
+    margin: 4em 12em;
+    padding: 3em 4em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA-Title {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.CTA-Text {
+    color: var(--Grey);
+    font-size: small;
+}
+
+.CTA-Button {
+    border: 1px solid var(--white);
+}
+
+footer {
+    background-color: var(--black);
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-weight: 200;
+}
+
+.Info, .Quote {
+    padding-left: 16em;
+    padding-right: 16em;
+}
+
+Header, .Hero, Footer{
+    padding-left: 12em;
+    padding-right: 12em;
+}
+
+:root {
+    --black: #1F2937;
+    --white: #F9FAF8;
+    --Grey: #E5E7EB;
+    --Blue: #3882F6;
+}
